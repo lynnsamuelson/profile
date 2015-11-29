@@ -11,16 +11,13 @@
   <body>
     <div>
       <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
-            <a  class="navbar-brand" href="#home"> Lynn Samuelson</a>
+            <a  class="navbar-brand" href="#title"> Lynn Samuelson</a>
           </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#about">About</a></li>
-              <li><a href="#blog">blog</a></li>
+              <!-- <li><a href="#blog">blog</a></li>-->
               <li><a href="#skills">Skills</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#contact">Contact</a></li>
@@ -29,50 +26,64 @@
         </div>
       </nav>
     </div> 
-    <div class="container">
-      <div id="skills" class="col-md-12 col-lg-12 padding">
+    <div class="container fluid">
+      <div id="title" class="col-md-12 col-lg-12 padding">
         <div class="header row">
-          <a><img id="birds" src="images/birds.jpg"></a>
-          <h1 class="intro-name header-margins">Lynn Samuelson</h1>
-          <h3 class="intro-desc"> Web Developer </h3>
+          <div id="birds">
+            <img id="birdsImage" src="images/birds.jpg" />
+            <p id="nameText">Lynn Samuelson</p>
+            <p id="titleText">Web Developer</p>
+          </div>
         </div>
+         
+   
       <div class="row">
       <div id="about" class="main-header header-margins center">
         <h1>About</h1>
         <p>Starting in childhood, solving most types of logic problems is a favorite pasttime. This included figuring out how to write a basic computer program to print my name or calculate my age on my families first computers.  In a small town, there were few opportunities to go any further in computer science and the influence of my family's pharmacy led me to pursue chemistry.  After obtaining a PhD in chemistry and conducting research to improve detection and treatment of cancer my interest in computers was reignited. I am currently looking to work as a software developer.
       </div>
           <h1 class="main-header header-margins center">Skills</h1>
-          <div class="col-lg-6 col-lg-offset-4">
-            <h4 class="center"> I have worked with: </h4>
+          <div class="skills">
             <div class="col-md-12">
-              <div class="col-sm-2">
-                <h6>HTML5</h6>
-                <h6>CSS3</h6>
+              <div class="col-sm-3 center">
+                <h6><img class="skillsPics" src="images/download.png">HTML5</h6>
+                <h6><img class="skillsPics" src="images/download.jpg">CSS3</h6>
+                <h6><img class="skillsPics"src="images/sass.png">Sass</h6>
+                <h6><img class="skillsPics"src="images/mvc.jpg">MVC</h6>
               </div>
-              <div class="col-sm-2">
-                <h6>Sass</h6><a class="skillsPics"><img src="images/sass.png"></a>
-                <h6>Bootstrap</h6>
+              <div class="col-sm-3">
+                <h6><img class="skillsPics"src="images/bootstrap.png">Bootstrap</h6>
+                <h6><img class="skillsPics"src="images/grunt.png">grunt</h6>
+                <h6><img class="skillsPics"src="images/firebase.jpg">Firebase</h6>
+                <h6><img class="skillsPics"src="images/NET.jpg">.NET</h6>
               </div>
-              <div class="col-sm-2">
-                <h6>grunt</h6>
-                <h6>Firebase</h6>
+              <div class="col-sm-3">
+                <h6><img class="skillsPics"src="images/jQuery.png">jQuery</h6>
+                <h6><img class="skillsPics"src="images/handlebars.jpg">Handlebars</h6>
+                <h6><img class="skillsPics"src="images/requireJS.jpg">RequireJS</h6>
               </div>
-              <div class="col-sm-2">
-                <h6>jQuery</h6>
-                <h6>Handlebars</h6>
+              <div class="col-sm-3">
+                <h6><img class="skillsPics"src="images/angularjs.jpg">Angular</h6>
+                <h6><img class="skillsPics"src="images/phaser.jpg">Phaser</h6>
+                <h6><img class="skillsPics"src="images/csharp.jpg">C#</h6>
               </div>
-              <div class="col-sm-2">
-                <h6>RequireJS</h6>
-                <h6>Angular</h6>
-              </div>
-              <div class="col-sm-2">
-                <h6>Phaser</h6>
-                <h6>ECMA6</h6>
+              <div class="col-sm-3">
               </div>
             </div>
           </div>
         </div>
-        <h1 class="main-header header-margins center">Portfolio</h1>  
+        <div id="portfolio">
+          <h1 class="main-header header-margins center">Portfolio</h1>  
+          <h4 id="chymic">Chymic Ions</h4>
+          <p>An experiment into coding alternative ways to present science, this project is designed to teach chemical ionization and balancing of equations by dragging and dropping or clicking to incriment a count.  This app was coded in AngularJS using RequireJS to minimize script tags and PHASER for controllin the drag and drop.
+          <br>
+          <a href="https://github.com/lynnsamuelson/capstone1">Check It Out!</a> 
+
+          <h4 id="chymic">Aminos Annoymous</h4>
+          <p>A collaborative project with NSS classmates in which we made a game around protein synthesis.  The object of the game is to help the ribosome collect amino acids and necssary to make a protein.  
+          <br>
+          <a href="https://github.com/lynnsamuelson/aminos-anonymous">Check It Out!</a>
+        </div>
         <h1 class="main-header header-margins center">Contact</h1>
         <h3>e-mail: lynn.samuelson@gmail.com
         <a href="https://github.com/lynnsamuelson">github</a>

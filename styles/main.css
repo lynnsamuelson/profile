@@ -1,8 +1,54 @@
 body {
   background: white; }
 
-#birds {
-  width: 100%;
-  height: 400px; }
 
-/*# sourceMappingURL=main.css.map */
+#birds {
+  height: 400px;
+  width: 400px;
+  position: relative;
+}
+#birdsImage {
+  position: absolute;
+  height: 400px;
+  width: 1200px;
+
+  left: 0;
+  top: 0;
+}
+#nameText {
+  z-index: 100;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  left: 300px;
+  top: 100px;
+ 
+}
+
+#titleText {
+  z-index: 100;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  left: 300px;
+  top: 165px;
+}
+
+.skillsPics {
+	max-width: 75px;
+	max-height: 150px;
+	text-align: center;
+}
+
+#chymic {
+  text-decoration: underline;
+}
+
