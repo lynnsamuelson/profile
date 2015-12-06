@@ -1,8 +1,58 @@
-body {
-	background: white;
+
+
+.left {
+	float: left;
+	color: black;
+	font-size: 24pt;
+	padding: 0;
+
+}
+.right {
+	float: right;
+	color: black;
+	padding: 0 25px 0 0;
+	font-size: 24pt;
 }
 
-#birds {
-	 width: 100%;
-    height: 400px;
+
+#nameText {
+	text-align: center;
+
 }
+#titleText {
+	text-align: center;
+}
+
+#title {
+	background-image:url('images/birds.jpg');
+	
+}
+
+body { 
+	padding-top: 70px;
+	background-color: #947FAA;
+	font-family: "Lato", sans-serif;
+
+}
+
+.skillsPics {
+	height: 100px;
+	width: 100px;
+}
+
+.skillsPicsLong {
+	height: 100px;
+	width: 175px;
+}
+
+.aboutText {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.contact {
+	height: 1px;
+	width: 1px;
+}
+
+

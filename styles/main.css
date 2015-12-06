@@ -1,54 +1,43 @@
-body {
-  background: white; }
-
-
-#birds {
-  height: 400px;
-  width: 400px;
-  position: relative;
-}
-#birdsImage {
-  position: absolute;
-  height: 400px;
-  width: 1200px;
-
-  left: 0;
-  top: 0;
-}
-#nameText {
-  z-index: 100;
-  display: inline-block;
-  overflow: hidden;
-  white-space: nowrap;
-  position: absolute;
+.left {
+  float: left;
   color: black;
-  font-size: 50px;
-  font-weight: bold;
-  left: 300px;
-  top: 100px;
- 
-}
+  font-size: 24pt;
+  padding: 0; }
+
+.right {
+  float: right;
+  color: black;
+  padding: 0 25px 0 0;
+  font-size: 24pt; }
+
+#nameText {
+  text-align: center; }
 
 #titleText {
-  z-index: 100;
-  display: inline-block;
-  overflow: hidden;
-  white-space: nowrap;
-  position: absolute;
-  color: black;
-  font-size: 24px;
-  font-weight: bold;
-  left: 300px;
-  top: 165px;
-}
+  text-align: center; }
+
+#title {
+  background-image: url("images/birds.jpg"); }
+
+body {
+  padding-top: 70px;
+  background-color: #947FAA;
+  font-family: "Lato", sans-serif; }
 
 .skillsPics {
-	max-width: 75px;
-	max-height: 150px;
-	text-align: center;
-}
+  height: 100px;
+  width: 100px; }
 
-#chymic {
-  text-decoration: underline;
-}
+.skillsPicsLong {
+  height: 100px;
+  width: 175px; }
 
+.aboutText {
+  text-align: justify;
+  text-justify: inter-word; }
+
+.contact {
+  height: 1px;
+  width: 1px; }
+
+/*# sourceMappingURL=main.css.map */

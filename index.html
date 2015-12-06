@@ -8,70 +8,64 @@
     <link rel="stylesheet" type="text/css" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
-  <body>
-    <div>
-      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-          <div class="navbar-header">
-            <a  class="navbar-brand" href="#title"> Lynn Samuelson</a>
-          </div>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#about">About</a></li>
-              <!-- <li><a href="#blog">blog</a></li>-->
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="nav nav-pills navbar navbar-collapse ">
+        <a class="left" href="#title">Lynn Samuelson</a>
+        <a class="right navbar-right" href="#about">About</a>
+        <a class="right" href="#skills">Skills</a>
+        <a class="right" href="#portfolio">Portfolio</a>
+        <a class="right" href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <div>
     </div> 
     <div class="container fluid">
-      <div id="title" class="col-md-12 col-lg-12 padding">
-        <div class="header row">
+      <div class="header row">
+        <div id="title" class="col-md-12 col-lg-12 padding">
           <div id="birds">
-            <img id="birdsImage" src="images/birds.jpg" />
-            <p id="nameText">Lynn Samuelson</p>
-            <p id="titleText">Web Developer</p>
+            <!--<img id="birdsImage" src="images/birds.jpg" />-->
+            <h1 id="nameText">Lynn Samuelson</h1>
+            <h3 id="titleText">Web Developer</h3>
           </div>
         </div>
-         
-   
+      </div>
       <div class="row">
       <div id="about" class="main-header header-margins center">
         <h1>About</h1>
-        <p>Starting in childhood, solving most types of logic problems is a favorite pasttime. This included figuring out how to write a basic computer program to print my name or calculate my age on my families first computers.  In a small town, there were few opportunities to go any further in computer science and the influence of my family's pharmacy led me to pursue chemistry.  After obtaining a PhD in chemistry and conducting research to improve detection and treatment of cancer my interest in computers was reignited. I am currently looking to work as a software developer.
+        <p class="aboutText">Starting in childhood, solving most types of logic problems is a favorite pasttime. This included figuring out how to write a basic computer program to print my name or calculate my age on my families first computers.  In a small town, there were few opportunities to go any further in computer science and the influence of my family's pharmacy led me to pursue chemistry.  After obtaining a PhD in chemistry and conducting research to improve detection and treatment of cancer my interest in computers was reignited. I am currently looking to work as a software developer.  At NSS I'm working with JavaScript, HTML, CSS, Handlebars, Bootstrap, RequireJS, AngularJS, C#, ASP.NET, MVC and Test Driven Development and other frameworks to take my training in analytical/organic chemistry and cancer biology to the next level.  As a chemist I designed innovative yet practical approaches to challenging biomedical problems by synthesizing and applying molecular building block tools.  One of these new tools improves the effectiveness of cancer drugs while reducing the side effects.  The other finds the earliest signs of cancer using methods patients would prefer, such as collecting urine instead of blood.  Working in science (and specifically on a medical center) involved many collaborations, learning, implementing and testing the limits of new technology (often without a user’s manual). This detail-oriented environment is applicable to building software.  I’m currently looking for opportunities in software development in Nashville, TN.  
       </div>
           <h1 class="main-header header-margins center">Skills</h1>
           <div class="skills">
-            <div class="col-md-12">
-              <div class="col-sm-3 center">
-                <h6><img class="skillsPics" src="images/download.png">HTML5</h6>
-                <h6><img class="skillsPics" src="images/download.jpg">CSS3</h6>
-                <h6><img class="skillsPics"src="images/sass.png">Sass</h6>
-                <h6><img class="skillsPics"src="images/mvc.jpg">MVC</h6>
+            <div class="row">
+              <div class="col-md-2">
+                <h6><img class="skillsPics" src="images/download.png"></h6>
+                <h6><img class="skillsPics" src="images/download.jpg"></h6>
               </div>
-              <div class="col-sm-3">
-                <h6><img class="skillsPics"src="images/bootstrap.png">Bootstrap</h6>
-                <h6><img class="skillsPics"src="images/grunt.png">grunt</h6>
-                <h6><img class="skillsPics"src="images/firebase.jpg">Firebase</h6>
-                <h6><img class="skillsPics"src="images/NET.jpg">.NET</h6>
+              <div class="col-md-2">
+                <h6><img class="skillsPics"src="images/sass.png"></h6>
+                <h6><img class="skillsPics"src="images/bootstrap.png"></h6>
               </div>
-              <div class="col-sm-3">
-                <h6><img class="skillsPics"src="images/jQuery.png">jQuery</h6>
-                <h6><img class="skillsPics"src="images/handlebars.jpg">Handlebars</h6>
-                <h6><img class="skillsPics"src="images/requireJS.jpg">RequireJS</h6>
+              <div class="col-md-2">
+                <h6><img class="skillsPics"src="images/grunt.png"></h6>
+                <h6><img class="skillsPics"src="images/jQuery.png"></h6>
               </div>
-              <div class="col-sm-3">
-                <h6><img class="skillsPics"src="images/angularjs.jpg">Angular</h6>
-                <h6><img class="skillsPics"src="images/phaser.jpg">Phaser</h6>
-                <h6><img class="skillsPics"src="images/csharp.jpg">C#</h6>
+              <div class="col-md-2">
+                <h6><img class="skillsPics"src="images/requireJS.jpg"></h6>
+                <h6><img class="skillsPics"src="images/angularjs.jpg"></h6>
               </div>
-              <div class="col-sm-3">
+              <div class="col-md-2">
+                <h6><img class="skillsPics"src="images/mvc.jpg"></h6>
+                <h6><img class="skillsPics"src="images/csharp.jpg"></h6>
+              </div>
+              <div class="col-md-2">
+                <h6><img class="skillsPicsLong"src="images/firebase.jpg"></h6>
+                <h6><img class="skillsPicsLong"src="images/handlebars.jpg"></h6>
               </div>
             </div>
           </div>
-        </div>
         <div id="portfolio">
           <h1 class="main-header header-margins center">Portfolio</h1>  
           <h4 id="chymic">Chymic Ions</h4>
@@ -84,12 +78,26 @@
           <br>
           <a href="https://github.com/lynnsamuelson/aminos-anonymous">Check It Out!</a>
         </div>
-        <h1 class="main-header header-margins center">Contact</h1>
-        <h3>e-mail: lynn.samuelson@gmail.com
-        <a href="https://github.com/lynnsamuelson">github</a>
-        <a href="">LinkedIn</a>  
-      </div>
-    </div>
+        <div class="contact">
+          <h1 id="contact" class="main-header header-margins center">Contact</h1>
+          <div class="row contact">
+            <div class="email">
+              <div class="col-md-3">
+                <a><img src="images/email.jpg"></a>
+              </div>
+              <div class="col-md-3 contact">
+                <h3>e-mail: lynn.samuelson@gmail.com</h3>
+              </div>
+            </div>
+              <div class="github col-md-3 contact">
+                <a href="https://github.com/lynnsamuelson"><img src="images/github.png"></a>
+              </div>
+              <div class="linkedin contact col-md-3">
+                <a href=""><img src="images/linkedin.png"></a>
+              </div>
+            </div> 
+          </div> 
+        </div>
      <script data-main="javascripts/main" src="lib/bower_components/requirejs/require.js"></script>
   </body>
 </html>
