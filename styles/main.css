@@ -16,28 +16,39 @@
 #titleText {
   text-align: center; }
 
-#title {
-  background-image: url("images/birds.jpg"); }
-
 body {
   padding-top: 70px;
-  background-color: #947FAA;
+  background-color: #BFECF4;
   font-family: "Lato", sans-serif; }
 
 .skillsPics {
   height: 100px;
-  width: 100px; }
+  width: 100px;
+  padding: 10px;
+  margin: 10px; }
 
 .skillsPicsLong {
   height: 100px;
-  width: 175px; }
+  width: 150px;
+  padding: 10px;
+  margin: 10px; }
 
 .aboutText {
   text-align: justify;
   text-justify: inter-word; }
 
 .contact {
-  height: 1px;
-  width: 1px; }
+  padding: 5px;
+  margin: 5px; }
+
+.image {
+  padding: 10px;
+  margin: 10px;
+  width: 125px; }
+
+.skills {
+  padding: 10px;
+  margin: 10px;
+  test-align: center; }
 
 /*# sourceMappingURL=main.css.map */
