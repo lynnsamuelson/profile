@@ -1,8 +1,12 @@
+.navStyle {
+  background-color: #ABA6C4;
+  border-color: #ABA6C4; }
+
 .left {
   float: left;
   color: black;
   font-size: 24pt;
-  padding: 0; }
+  padding: 0 25px 0 0; }
 
 .right {
   float: right;
@@ -11,14 +15,21 @@
   font-size: 24pt; }
 
 #nameText {
-  text-align: center; }
+  padding: 10px; }
 
 #titleText {
-  text-align: center; }
+  padding: 10px; }
+
+.title {
+  text-align: center;
+  float: left;
+  margin-top: 100px;
+  padding: 100px;
+  background-color: #9A999C; }
 
 body {
   padding-top: 70px;
-  background-color: #BFECF4;
+  background-color: #BDBCBF;
   font-family: "Lato", sans-serif; }
 
 .skillsPics {
@@ -35,7 +46,8 @@ body {
 
 .aboutText {
   text-align: justify;
-  text-justify: inter-word; }
+  text-justify: inter-word;
+  padding: 10px; }
 
 .contact {
   padding: 5px;
@@ -50,5 +62,15 @@ body {
   padding: 10px;
   margin: 10px;
   test-align: center; }
+
+.birds {
+  max-height: 200px;
+  width: cover; }
+
+.profilePic {
+  border-radius: 50%;
+  float: right;
+  padding-top: 35px;
+  margin-top: 75px; }
 
 /*# sourceMappingURL=main.css.map */
