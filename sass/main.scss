@@ -1,6 +1,14 @@
+
+body { 
+	background-color: #B1BED2;
+	font-family: "Lato", sans-serif;
+
+}
+
 .navStyle {
-	background-color: #ABA6C4;
-	border-color: #ABA6C4;
+	background-color : transparent;
+	z-index: 99;
+	width:100%;
 }
 
 .left {
@@ -12,18 +20,48 @@
 }
 .right {
 	float: right;
-	color: black;
-	padding: 0 25px 0 0;
+	color: #C3D2E3;
+	padding:  10px 25px 0 25px;
 	font-size: 24pt;
+	font-family: Sans-serif;
+}
+.right onhover {
+	background: red;
+
+}
+
+.nav-end {
+	padding-right: 100px;
+}
+
+#background-top {
+	background-image: url("../images/nashville-river.jpg"); 
+  	background-size: cover;
+  	height: 600px;
+ 
+	
+}
+
+.name-title {
+	margin: none;
+	padding: 0;
+	padding-top: 100px;
 }
 
 
 #nameText {
-	padding: 10px;
+	padding: 0;
+	margin: none;
+	font-size: 54pt;
+	font-family: Sans-serif;
+	color: #465F84;
 
 }
 #titleText {
-	padding: 10px;
+	padding: 0 0 0 30px;
+	font-size: 36pt;
+	font-family: Sans-serif;
+	color: #465F84;
 }
 
 .title {
@@ -31,16 +69,11 @@
 	float: left;
 	margin-top: 100px;
 	padding: 100px;
-	background-color: #9A999C;
+	background-color: transparent;
 }
 
 
-body { 
-	padding-top: 70px;
-	background-color: #BDBCBF;
-	font-family: "Lato", sans-serif;
 
-}
 
 .skillsPics {
 	height: 100px;
@@ -55,7 +88,9 @@ body {
 	padding: 10px;
 	margin: 10px;
 }
-
+#about {
+	background: #B1BED2;
+}
 .aboutText {
 	text-align: justify;
 	text-justify: inter-word;
